@@ -78,6 +78,7 @@ nav{
 .logos{
     margin-right: 15px;
 }
+
 .blog{
     width: 329px;
     height: 490px;
@@ -101,4 +102,8 @@ nav{
 .caption{
     font-size: 14px;
     font-weight: 700;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
