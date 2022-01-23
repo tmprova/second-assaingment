@@ -24,9 +24,12 @@ nav{
     color: burlywood;
     margin-left: 10px;
 }
-.fas{
+.icons{
     color: burlywood;
     margin-left: 5px;
+}
+.rate{
+    color: rgba(219, 189, 19, 0.863);
 }
    
 .head-container{
@@ -44,18 +47,22 @@ nav{
     transition: transform 2s ease-in-out;
 }
 .heading-para{
-    width: 300px;
-    height: 300px;
+    
     margin-left: 100px;
     margin-right: 200px;
     margin-top: 100px;
+    margin-bottom: 30px;
+    font-size: 1.2em;
+   
 }
 .button{
     background-color: coral;
     padding: 10px 40px;
+
     
     border-radius: 5px;
-    font-weight: 700;
+    font-weight: 600;
+    margin-top: 16px;
    
 }
 .button:hover{
@@ -65,8 +72,33 @@ nav{
 .outer-links{
     text-align: center;
    margin-top: 150px;
-   margin-bottom: 100px;
+   margin-bottom: 100px;border: 1px solid lightgrey;
+   border-radius: 5px;
 }
 .logos{
     margin-right: 15px;
+}
+.blog{
+    width: 329px;
+    height: 490px;
+    box-shadow: 0px 0px 40px rgba(0,0,0,15);
+    border-radius: 5px;
+}
+.blog img{
+    width: 300px;
+    height: 256px;border-radius: 5px;
+    padding: 12px;
+}
+.bl{
+    padding-left: 16px;
+}
+
+.ratings{
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+}
+.caption{
+    font-size: 14px;
+    font-weight: 700;
 }
