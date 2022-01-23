@@ -56,13 +56,14 @@ nav{
    
 }
 .button{
-    background-color: coral;
-    padding: 10px 40px;
+    background-color: #d82b6a;
+    padding: 10px 24px;
 
     
-    border-radius: 5px;
+    border-radius: 10px;
     font-weight: 600;
     margin-top: 16px;
+    
    
 }
 .button:hover{
