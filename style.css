@@ -73,9 +73,10 @@ nav{
 .outer-links{
     text-align: center;
    margin-top: 150px;
-   margin-bottom: 100px;border: 1px solid lightgrey;
-   border-radius: 5px;
+   /* margin-bottom: 100px;border: 1px solid lightgrey;
+   border-radius: 5px; */
 }
+
 .logos{
     margin-right: 15px;
 }
@@ -138,4 +139,33 @@ main span{
     padding-bottom: 30px;
    
 
+}
+.bonus-sec{
+    width: 700px;
+    height: 200px;
+    margin: 160px;
+    display: flex;
+    justify-content: center;
+    
+}
+#bonus-img{
+    width: 80%;
+    border-radius: 7px;
+}
+#bonus-link{
+    color: burlywood;
+    text-decoration: none;
+}
+.last-button{
+    background-color: rgba(165, 24, 165, 0.753);
+    padding: 10px 24px;
+    border-radius: 6px;
+}
+footer{
+    height: 150px;
+    background-color: rgb(24, 24, 41);
+    color: cornsilk;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
 }
